@@ -38,7 +38,7 @@ struct kifs_entry* my_create_kifs_entry(const char * entryname, struct kifs_oper
         strcpy(ptr->entryname, entryname);
 	ptr->ops = ops;
 	list_add_tail(&(ptr->links),&entry_list);
-	if ((strcmp(ptr->entryname,"list") !=0) && (strcmp(ptr->entryname,"clipborad") !=0)){
+	if ((strcmp(ptr->entryname,"list")!=0)&&(strcmp(ptr->entryname,"clipboard")!=0)){
 		try_module_get(THIS_MODULE);
 	}
 	return ptr;
