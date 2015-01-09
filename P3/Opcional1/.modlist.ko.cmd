@@ -1,0 +1,1 @@
+cmd_/home/kernel/P3/Opcional1/modlist.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.lin/scripts/module-common.lds --build-id  -o /home/kernel/P3/Opcional1/modlist.ko /home/kernel/P3/Opcional1/modlist.o /home/kernel/P3/Opcional1/modlist.mod.o

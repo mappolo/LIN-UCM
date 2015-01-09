@@ -1,0 +1,1 @@
+cmd_/home/kernel/Descargas/P3/ParteB/fifoproc.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.lin/scripts/module-common.lds --build-id  -o /home/kernel/Descargas/P3/ParteB/fifoproc.ko /home/kernel/Descargas/P3/ParteB/fifoproc.o /home/kernel/Descargas/P3/ParteB/fifoproc.mod.o

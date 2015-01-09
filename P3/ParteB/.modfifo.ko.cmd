@@ -1,0 +1,1 @@
+cmd_/home/kernel/P3/ParteB/modfifo.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.lin/scripts/module-common.lds --build-id  -o /home/kernel/P3/ParteB/modfifo.ko /home/kernel/P3/ParteB/modfifo.o /home/kernel/P3/ParteB/modfifo.mod.o
